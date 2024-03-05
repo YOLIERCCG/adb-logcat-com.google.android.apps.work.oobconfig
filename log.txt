@@ -1,1 +1,97 @@
+# adb-logcat-com.google.android.apps.work.oobconfig
 
+adb logcat com.google.android.apps.work.oobconfig:*
+--------- beginning of kernel
+01-01 08:00:01.683     0     0 I trusty  : boot args 0x*** 0x*** 0x1000 0x0
+01-01 08:00:01.683     0     0 I trusty  : gicc 0x***, gicd 0x***, gicr 0x***
+01-01 08:00:01.683     0     0 I trusty  : mte is not available
+01-01 08:00:01.683     0     0 I trusty  : initializing trusty (Project: slider, Build: 10822230, Built: 04:20:46 Sep 18 2023)
+01-01 08:00:01.683     0     0 I trusty  : ARM TRNG waited for a long time: *** ns
+01-01 08:00:01.683     0     0 I trusty  : ARM TRNG total time for 8 bytes: *** ns
+01-01 08:00:01.683     0     0 I trusty  : _Bool sm_check_and_lock_api_version(uint32_t):127: min api version set: 2
+01-01 08:00:01.992     0     0 I trusty  : hwkey_srv: 581: committed=5/00000***/00000*** running=5/00000***/00000*** time=***ns
+01-01 08:00:01.999     0     0 I trusty  : int fs_init_from_super(struct fs *, const struct super_block *, fs_init_flags32_t):872: fs tp: loaded super block version 1, checkpoint exists: 0
+01-01 08:00:02.068     0     0 I trusty  : system_state_server: 289: trusty=0/0/0 prov=0/0/1/0/0 app=0/0 roll=0/0/0/0
+01-01 08:00:04.188     0     0 I trusty  : hwmgr-proxy-srv: 423: AOC: configure sysmmu entry = 0x*** 0x*** 0x***
+01-01 08:00:04.188     0     0 I trusty  : hwmgr-proxy-srv: 423: AOC: configure sysmmu entry = 0x*** 0x*** 0x***
+01-01 08:00:04.188     0     0 I trusty  : hwmgr-proxy-srv: 423: AOC: configure sysmmu entry = 0x*** 0x*** 0x***
+01-01 08:00:04.188     0     0 I trusty  : hwmgr-proxy-srv: 423: AOC: configure sysmmu entry = 0x*** 0x*** 0x***
+01-01 08:00:04.188     0     0 I trusty  : hwmgr-proxy-srv: 423: AOC: configure sysmmu entry = 0x*** 0x*** 0x***
+01-01 08:00:04.188     0     0 I trusty  : hwmgr-proxy-srv: 423: AOC: configure sysmmu entry = 0x*** 0x*** 0x***
+01-01 08:00:06.978     0     0 I trusty  : int fs_init_from_super(struct fs *, const struct super_block *, fs_init_flags32_t):872: fs tp: loaded super block version 1, checkpoint exists: 0
+01-01 08:00:06.983     0     0 I trusty  : int fs_init_from_super(struct fs *, const struct super_block *, fs_init_flags32_t):872: fs tdp: loaded super block version 1, checkpoint exists: 0
+01-01 08:00:06.985     0     0 I trusty  : int fs_init_from_super(struct fs *, const struct super_block *, fs_init_flags32_t):872: fs td: loaded super block version 3, checkpoint exists: 0
+01-01 08:00:07.006     0     0 I trusty  : resku_rescue: 107: Device already fused.
+01-01 08:00:07.006     0     0 I trusty  : tipc-srv: 141: failed (-6) to handle event on channel 1005
+01-01 08:00:07.073     0     0 I trusty  : apploader_policy_engine: 352: NON_CRITICAL_APP requested
+01-01 08:00:07.073     0     0 I trusty  : apploader_policy_engine: 362: Allowing app loading: passed policy: 8db26df6-9e77-4f61-b3c2-b88a788cbac2
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][I][gf_modules][ta_version_info] SOFT VERSION INFO PRINT
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][I][gf_modules][ta_version_info] ANDROID_VERSION=android12.0
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][I][gf_modules][ta_version_info] TARGET_MODE=release
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][I][gf_modules][ta_version_info] PACKAGE_VERSION_CODE=26020168
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][I][gf_modules][ta_version_info] PACKAGE_VERSION_NAME=V26.02.01.68
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][I][gf_modules][ta_version_info] GIT_BRANCH=master
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][I][gf_modules][ta_version_info] COMMIT_ID=40f77f9_40f77f9_40f77f9
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][I][gf_modules][ta_version_info] BUILD_TIME=2023.08.21_18:51:45
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][I][gf_modules][ta_version_info] TA_VERSION=40f77f9_40f77f9_40f77f9_2023.08.21_18:51:45
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][I][gf_hw_dc][gf_hw_dc_init_function]  sensor_type=0x00000103
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][E][gf_delmar_t_dc][delmar_read_chip_id] sensor may be in sleep state try wakeup it.
+01-01 08:00:07.107     0     0 I trusty  : [GF_TA][E][gf_delmar_t_dc][delmar_read_chip_id] try wakeup spi
+01-01 08:00:07.114     0     0 I trusty  : [GF_TA][E][gf_delmar_t_dc][delmar_read_chip_id] final read unkown chip type=0x2d2
+01-01 08:00:07.114     0     0 I trusty  : [GF_TA][E][gf_delmar_t_dc][delmar_read_chip_id] exit. err=GF_ERROR_SENSOR_NOT_AVAILABLE, errno=1064
+01-01 08:00:07.114     0     0 I trusty  : [GF_TA][E][gf_delmar_t_dc][gf_delmar_t_read_chip_id] exit. err=GF_ERROR_SENSOR_NOT_AVAILABLE, errno=1064
+01-01 08:00:07.114     0     0 I trusty  : [GF_TA][I][gf_hw_dc][gf_hw_dc_init_function]  init delmar_cs
+01-01 08:00:07.114     0     0 I trusty  : [GF_TA][I][gf_sensor_utils][print_ta_version_in_sensor_utils] TA_VERSION=40f77f9_40f77f9_40f77f9_2023.08.21_18:53:22
+01-01 08:00:07.116     0     0 I trusty  : [GF_TA][I][gf_hw][hw_detect_chip_type] detect chip type = 259
+01-01 08:00:07.118     0     0 I trusty  : [GF_TA][I][gf_config][get_asp_sub_version] display_type = 5 ,asp_version = 2
+01-01 08:00:07.118     0     0 I trusty  : [GF_TA][E][gf_sensor_customized][sensor_customized_do_init] hbm_mode=0
+01-01 08:00:07.118     0     0 I trusty  : [GF_TA][E][gf_sensor_customized][sensor_customized_do_init] g_device_context.hbm_mode=1
+01-01 08:00:07.118     0     0 I trusty  : [GF_TA][E][gf_delmar][delmar_read_flash_id] exit. err=GF_ERROR_SENSOR_NOT_AVAILABLE, errno=1064
+01-01 08:00:07.118     0     0 I trusty  : [GF_TA][E][gf_hw][hw_has_flash] exit. err=GF_ERROR_SENSOR_NOT_AVAILABLE, errno=1064
+01-01 08:00:07.121     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_persist.so 1
+11-21 14:24:32.060     0     0 I trusty  : [GF_TA][E][gf_local_store_file_system][gf_load_data_in_partion]Sector 0 no data in block index = 0, seg_offset = 0
+11-21 14:24:32.060     0     0 I trusty  : [GF_TA][E][gf_local_store_file_system][gf_load_data_in_partion] exit. err=GF_ERROR_INVALID_DATA, errno=1024
+11-21 14:24:32.060     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_otp_0.so 1
+11-21 14:24:32.062     0     0 I trusty  : [GF_TA][I][gf_delmar_sensor][sensor_do_init] sensor 0 cf_mark = 0 cf_mask_type = 0, optical_type = 15
+11-21 14:24:32.062     0     0 I trusty  : [GF_TA][I][gf_delmar_sensor][sensor_do_init] sg num = 4
+11-21 14:24:32.062     0     0 I trusty  : [GF_TA][I][gf_delmar_sensor][sensor_do_init] bg version = 139
+11-21 14:24:32.062     0     0 I trusty  : [GF_TA][I][gf_delmar_sensor][sensor_do_init] fw_version =
+11-21 14:24:32.062     0     0 I trusty  : [GF_TA][I][gf_hw_utils][gf_get_pga_gain_value] sensor index = 0 gain_value=1.835199
+11-21 14:24:32.062     0     0 I trusty  : [GF_TA][I][gf_delmar_cs_dc][delmar_s_init_default_config] delmar s chip type : g7 DBH
+11-21 14:24:32.062     0     0 I trusty  : [GF_TA][I][gf_delmar_cs_dc][update_normal_expo_config] load expo time, saved_exposure_time*1000=***
+11-21 14:24:32.062     0     0 I trusty  : [GF_TA][I][gf_hw][hw_get_real_expo] real_expo = 0.000000
+11-21 14:24:32.062     0     0 I trusty  : [GF_TA][I][gf_delmar_cs_dc][decrease_normal_gain] ratio=1.000000
+11-21 14:24:32.062     0     0 I trusty  : [GF_TA][E][gf_delmar_cs_dc][decrease_normal_gain] invalid ratio
+11-21 14:24:32.068     0     0 I trusty  : [GF_TA][E][gf_local_store_file_system][gf_load_data_in_partion]Sector 1 no data in block index = 0, seg_offset = 4
+11-21 14:24:32.068     0     0 I trusty  : [GF_TA][E][gf_local_store_file_system][gf_load_data_in_partion] exit. err=GF_ERROR_INVALID_DATA, errno=1024
+11-21 14:24:32.068     0     0 I trusty  : [GF_TA][E][gf_local_store_fs_internal][gf_file_store_get] exit. err=GF_ERROR_INVALID_DATA, errno=1024
+11-21 14:24:32.068     0     0 I trusty  : [GF_TA][E][gf_delmar_cs_dc][load_cali_temperature] load temperature adc base = 0
+11-21 14:24:32.068     0     0 I trusty  : [GF_TA][E][gf_delmar_cs_dc][load_cali_temperature] exit. err=GF_ERROR_INVALID_DATA, errno=1024
+11-21 14:24:32.154     0     0 I trusty  : [GF_TA][I][gf_delmar_cs_dc][delmar_read_image_hr_mode] read image end, err=0
+11-21 14:24:32.154     0     0 I trusty  : [GF_TA][I][gf_hw_dc][hw_init_chip_config] Data process version(Mixed):DataProcMixed_V1.0.25
+11-21 14:24:32.154     0     0 I trusty  : [GF_TA][I][gf_delmar_cs_dc][update_retry_highlight_config] retry[1] decrease_gain=0x41 expo*1000=***
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] max_fingers=32
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] max_fingers_per_user=4
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] enrolling_min_templates=40
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] valid_image_quality_threshold=15
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] valid_image_area_threshold=65
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] duplicate_finger_overlay_score=70
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] increase_rate_between_stitch_info=10
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] forbidden_enroll_duplicate_fingers=0
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] authenticate_order=0
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] template_update_save_threshold=20
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][E][gf_cali][cali_init] start cali inti lb mode = 0.
+11-21 14:24:32.156     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_cali_0.so 1
+11-21 14:24:32.177     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_cali_1.so 1
+11-21 14:24:32.202     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_cali_2.so 1
+11-21 14:24:32.225     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_cali_3.so 1
+11-21 14:24:32.245     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_fake_base_0.so 1
+11-21 14:24:32.256     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_fake_base_1.so 1
+11-21 14:24:32.272     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_fake_base_2.so 1
+11-21 14:24:32.286     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_fake_base_3.so 1
+11-21 14:24:32.304     0     0 I trusty  : [GF_TA][E][gf_fake_detect_param][gf_get_fake_detect_param] use default fake params for G7
+11-21 14:24:32.675     0     0 I trusty  : [GF_TA][I][gf_algo_adapter][gf_adt_fp_preprocess_init] MoireFilterVersion=Moire_v_2.01.19
+11-21 14:24:32.675     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_nocf_fleshbase_0.so 1
+11-21 14:24:32.682     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_nocf_darkbase_0.so 1
+11-21 14:24:32.737     0     0 I trusty  : [GF_TA][I][gf_algo_adapter][gf_adt_fp_preprocess_init] MoireFilterVersion=Moire_v_2.01.19
+11-21 14:24:32.737     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 1 LHBM_gf_nocf_fleshbase_1.so 1
